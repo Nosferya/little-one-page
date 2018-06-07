@@ -121,24 +121,61 @@ margin-right: 80px;
 }
 
 .border {
-  border: 1px solid black;
+  border: 1px solid grey;
   margin-top: 15px;
   padding: 5px;
 }
 
 textarea {
   position: absolute;
-  height: 60px;
+  height: 195px;
+  border: none;
+  width: 412px;
+  resize: none;
+  margin-top:5px;
 }
 
 form i {
   padding: 5px;
+  color:grey;
+}
+
+.txtarea {
+  margin-top: 17px;
+  border: 1px solid grey;
+  height: 202px;
 }
 
 input {
   width: 400px;
+  padding-left: 5px;
 }
 
-input::before {
-  
+.inlflex {
+  display: flex;
+  padding-left: 15px;
+}
+
+.icons {
+  height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer i {
+  margin-right: 30px;
+}
+
+form button {
+  border-radius:20px;
+  display: flex;
+margin-left: 40%;
+margin-top: 40px;
+padding: 5px 25px 5px;
+background-color: #846add;
+}
+
+#pad {
+  margin-left:10px;
 }
