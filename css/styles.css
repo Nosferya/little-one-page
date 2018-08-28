@@ -122,36 +122,80 @@ form button {
 }
 
 /* line 104, icons/*.png */
-.icons-sprite {
-  background-image: url('/images/icons-s80df6b1caa.png');
+.icons-sprite, .icons-fb, .icons-ig, .icons-tw, .icons-yt {
+  background-image: url('/test/little-one-page/images/icons-s0a20863a31.png');
   background-repeat: no-repeat;
 }
 
-/* line 11, ../scss/styles.scss */
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb {
+  background-position: 0 0;
+  height: 100px;
+  width: 100px;
+}
+/* line 59, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb:hover, .icons-fb.fb-hover {
+  background-position: 0 -115px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ig {
+  background-position: 0 -230px;
+  height: 100px;
+  width: 100px;
+}
+/* line 59, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ig:hover, .icons-ig.ig-hover {
+  background-position: 0 -345px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw {
+  background-position: 0 -460px;
+  height: 100px;
+  width: 100px;
+}
+/* line 59, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw:hover, .icons-tw.tw-hover {
+  background-position: 0 -575px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-yt {
+  background-position: 0 -690px;
+  height: 100px;
+  width: 100px;
+}
+/* line 59, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-yt:hover, .icons-yt.yt-hover {
+  background-position: 0 -805px;
+}
+
+/* line 12, ../scss/styles.scss */
 h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 25, ../scss/styles.scss */
+/* line 26, ../scss/styles.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 29, ../scss/styles.scss */
+/* line 30, ../scss/styles.scss */
 body, .sect3 img {
   font-family: Trebuchet MS, serif;
 }
 
-/* line 34, ../scss/styles.scss */
+/* line 35, ../scss/styles.scss */
 .sect3 img {
   height: 380px;
   width: 480px;
   margin-right: 82px;
 }
 
-/* line 42, ../scss/styles.scss */
+/* line 43, ../scss/styles.scss */
 h1 {
   font-size: 6.0rem;
   color: white;
@@ -159,54 +203,54 @@ h1 {
   padding-top: 70px;
 }
 
-/* line 50, ../scss/styles.scss */
+/* line 51, ../scss/styles.scss */
 .baseline {
   font-size: 3.6rem;
   color: black;
   margin: 0;
 }
 
-/* line 56, ../scss/styles.scss */
+/* line 57, ../scss/styles.scss */
 nav {
   font-size: 2.2rem;
   background-color: #ff3333;
   box-shadow: 0px 5px 2px 1px #656565;
 }
 
-/* line 62, ../scss/styles.scss */
+/* line 63, ../scss/styles.scss */
 p {
   font-size: 1.6rem;
 }
 
-/* line 65, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 .container {
   display: flex;
   justify-content: center;
 }
 
-/* line 70, ../scss/styles.scss */
+/* line 71, ../scss/styles.scss */
 .main {
   width: 980px;
   justify-content: center;
 }
 
-/* line 75, ../scss/styles.scss */
+/* line 76, ../scss/styles.scss */
 .noms {
   font-size: 1.8rem;
   font-weight: bold;
 }
 
-/* line 81, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 #ST1 {
   margin-top: 40px;
 }
 
-/* line 84, ../scss/styles.scss */
+/* line 85, ../scss/styles.scss */
 .inline {
   display: inline;
 }
 
-/* line 88, ../scss/styles.scss */
+/* line 89, ../scss/styles.scss */
 .container1 {
   display: flex;
   justify-content: space-between;
@@ -214,7 +258,7 @@ p {
   font-size: 17px;
 }
 
-/* line 95, ../scss/styles.scss */
+/* line 96, ../scss/styles.scss */
 .container2 {
   display: flex;
   justify-content: space-between;
@@ -224,7 +268,7 @@ p {
   margin-bottom: 15px;
 }
 
-/* line 99, ../scss/styles.scss */
+/* line 100, ../scss/styles.scss */
 footer {
   color: white;
   background-color: #2b5dc3;
@@ -235,25 +279,25 @@ footer {
   margin-top: 70px;
 }
 
-/* line 109, ../scss/styles.scss */
+/* line 110, ../scss/styles.scss */
 .sect3 {
   display: flex;
   font-size: 1.6rem;
 }
 
-/* line 114, ../scss/styles.scss */
+/* line 115, ../scss/styles.scss */
 .no_border {
   border: 0px;
 }
 
-/* line 120, ../scss/styles.scss */
+/* line 121, ../scss/styles.scss */
 .border {
   border: 1px solid grey;
   margin-top: 15px;
   padding: 5px;
 }
 
-/* line 126, ../scss/styles.scss */
+/* line 127, ../scss/styles.scss */
 textarea {
   position: absolute;
   height: 195px;
@@ -263,32 +307,32 @@ textarea {
   margin-top: 5px;
 }
 
-/* line 135, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 form i {
   padding: 5px;
   color: grey;
 }
 
-/* line 140, ../scss/styles.scss */
+/* line 141, ../scss/styles.scss */
 .txtarea {
   margin-top: 17px;
   border: 1px solid grey;
   height: 202px;
 }
 
-/* line 146, ../scss/styles.scss */
+/* line 147, ../scss/styles.scss */
 input {
   width: 400px;
   padding-left: 5px;
 }
 
-/* line 151, ../scss/styles.scss */
+/* line 152, ../scss/styles.scss */
 .inlflex {
   display: flex;
   padding-left: 15px;
 }
 
-/* line 156, ../scss/styles.scss */
+/* line 157, ../scss/styles.scss */
 .icons {
   height: 100%;
   display: flex;

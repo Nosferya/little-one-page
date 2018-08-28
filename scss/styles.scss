@@ -4,6 +4,7 @@
 @import "compass/typography/vertical_rhythm";
 $icons-spacing: 15px;
 @import "icons/*.png";
+@include all-icons-sprites(true);
 
 
 $font-family: Trebuchet MS, serif;
