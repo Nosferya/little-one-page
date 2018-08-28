@@ -1,10 +1,10 @@
-// @import 'compass';
 @import 'compass/reset';
 @import 'partials/header';
 @import 'partials/footer';
 @import "compass/typography/vertical_rhythm";
+$icons-spacing: 15px;
 @import "icons/*.png";
-@include all-icons-sprites;
+
 
 $font-family: Trebuchet MS, serif;
 
